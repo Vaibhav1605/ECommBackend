@@ -26,7 +26,7 @@ public class HibConfig {
 				return dataSource;
 	}
 	
-	
+	//Bean is created
 	@Bean
 	public LocalSessionFactoryBuilder sessionFactory()
 	{
